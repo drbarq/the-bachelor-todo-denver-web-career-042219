@@ -6,11 +6,11 @@ def get_first_name_of_season_winner(data, season)
   data.each do |data_season, participant_stats|
     if data_season == season
 
-      participant_stats.each do |category, category_value|
+      participant_stats.each do |category|
         binding.pry
-        if category == "status"
+        if category.keys == "status"
         #  category_value.each do |
-          puts category_value
+          puts category.value
         end
       end
     end
