@@ -7,13 +7,13 @@ def get_first_name_of_season_winner(data, season)
     if data_season == season
 
       participant_stats.each do |category|
-        
+
         if category.keys == "status"
         #  category_value.each do |
           if category.value == "Winner"
             binding.pry
             puts category[:name].value
-            
+
         end
       end
     end
