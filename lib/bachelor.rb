@@ -16,12 +16,12 @@ def get_first_name_of_season_winner(data, season)
     end
   end
 end
-return season 
+return season
 
   # code here
 end
 
-season = "Season 10"
+#season = "Season 10"
 
 def get_contestant_name(data, occupation)
   # code here
