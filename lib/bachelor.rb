@@ -10,7 +10,7 @@ def get_first_name_of_season_winner(data, season)
         binding.pry
         if category.keys == "status"
         #  category_value.each do |
-          puts category.value
+          if category.value == "Winner"
         end
       end
     end
