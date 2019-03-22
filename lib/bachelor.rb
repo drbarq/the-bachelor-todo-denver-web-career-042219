@@ -11,6 +11,8 @@ def get_first_name_of_season_winner(data, season)
         if category.keys == "status"
         #  category_value.each do |
           if category.value == "Winner"
+            puts category[:name].value
+            return
         end
       end
     end
