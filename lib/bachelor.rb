@@ -16,7 +16,7 @@ def get_first_name_of_season_winner(data, season)
     end
   end
 end
-return season
+#return season
 
   # code here
 
